@@ -1,0 +1,155 @@
+body {
+    width: 100vw;
+    height: auto;
+    font-size: 1vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 85%;
+    height: auto;
+    margin-top: 25em;
+    margin-bottom: 10em;
+    border-radius: 15px;
+}
+
+section {
+    padding: 0 10em;
+    margin: 0;
+}
+
+.first-section {
+    border: 1px solid hsl(31, 77%, 52%);
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 15px 0 0;
+    
+}
+
+.second-section {
+    border: 1px solid hsl(184, 100%, 22%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third-section {
+    border: 1px solid hsl(179, 100%, 13%);
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 15px 15px;
+}
+
+img {
+    width: 15%;
+    margin-top: 10em;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 8em;
+    color: hsl(0, 0%, 95%);
+    
+}
+
+p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 3.5em;
+    line-height: 1.8em;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 85%;
+
+}
+
+.button {
+    border: 1px solid hsl(0, 0%, 95%);
+    width: 40%;
+    padding: .3em 0em;
+    border-radius: 40px;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+}
+
+.first-section .button {
+    color: hsl(31, 77%, 52%);
+}
+
+.second-section .button {
+    color: hsl(184, 100%, 22%);
+}
+
+.third-section .button {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    
+}
+       
+       /* for desktop */ 
+        
+@media (min-width: 375px) {
+    
+    body {
+        height: 100vh;
+    }
+    
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0;
+    }
+    
+    section {
+        padding: 0 2em;
+    }
+    
+    img {
+        width: 20%;
+        margin: 0;
+        margin-top: 2.5em;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    p {
+       font-size: .7em;
+       width: 89%;
+    }
+    
+    .button {
+        border-radius: 20px;
+        width: 60%;
+        margin-top: 4em;
+        box-sizing: border-box;
+    }
+    
+    .button:hover {
+        background-color: hsla(0, 0%, 100%, 0);
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    .first-section {
+        border-radius: 0;
+    }
+    
+    .third-section {
+        border-radius: 0;
+    }
+}
+
+
